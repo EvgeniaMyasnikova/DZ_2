@@ -7,14 +7,14 @@
 1 -> нет
 */
 
-Console.WriteLine("Введие")
-int number = new Random().Next(0; 8);
+Console.WriteLine("Введите число дня недели от 1 до 7: ");
+int dayNumber = Convert.ToInt32(Console.ReadLine());
 
-if (number < 6);
+if (dayNumber < 6)
+{
+    Console.WriteLine("рабочий день");
+}
+ if (dayNumber >= 6)
 {
     Console.WriteLine("выходной");
-}
-
-{
-    Console.WriteLine("рабочий день")
 }
