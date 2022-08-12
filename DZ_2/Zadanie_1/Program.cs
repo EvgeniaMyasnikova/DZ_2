@@ -6,8 +6,16 @@
 918 -> 1
 */
 
+// Console.WriteLine ("Введите трехзначное число");
+
+// string? number = Console.ReadLine();
+
+// Console.WriteLine(number[1]);
+
+// 
+
+
 Console.WriteLine ("Введите трехзначное число");
-
-string? number = Console.ReadLine();
-
+int digit = Convert.ToInt32(Console.ReadLine());
+string number = Convert.ToString (digit);
 Console.WriteLine(number[1]);

@@ -7,6 +7,7 @@
 32679 -> 6
 */
 
+/*
 Console.WriteLine("Введите число: ");
 
 int result = Convert.ToInt32(Console.ReadLine());
@@ -18,6 +19,20 @@ if (result < 100)
 if (result >= 100)
 {
     string number = Convert.ToString (result);
+    Console.WriteLine(number[2];
+}
+
+*/
+
+string? number = Console.ReadLine();
+int size = number.Length;
+
+if (size < 3)
+{
+    Console.WriteLine("Третьего символа нет");
+}
+if (size >= 3)
+{
     Console.WriteLine(number[2]);
 }
 
